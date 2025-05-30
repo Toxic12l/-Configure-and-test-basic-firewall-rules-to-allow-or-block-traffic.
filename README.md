@@ -1,4 +1,13 @@
 # -Configure-and-test-basic-firewall-rules-to-allow-or-block-traffic.
+ Documented Steps Used
+Used Windows Defender Firewall with Advanced Security.
+
+Created inbound rule to block TCP port 23.
+
+Tested using telnet.
+
+Deleted rule to restore firewall to original state
+ 
  Summary: How Firewalls Filter Traffic
 Firewalls act as gatekeepers, monitoring and controlling network traffic based on defined rules. They can:
 
